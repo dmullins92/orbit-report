@@ -9,12 +9,12 @@
 }
 
 table {
-  color: rgb(0, 95, 13);
+  color: rgb(1, 3, 1);
   border-radius: 5px;
   overflow: hidden;
   margin: 12px 0;
   min-width: 300px;
-  background: #dad8d8;
+  font-weight: 300;
 }
 
 .header-row {
@@ -26,4 +26,12 @@ th, td {
     text-align: left;
     margin: 5px 10px;
     padding: 6px;
+}
+
+.even:not(.warning) {
+    background: lightslategray; 
+}
+
+.odd:not(.warning) {
+    background: lightgreen; 
 }
